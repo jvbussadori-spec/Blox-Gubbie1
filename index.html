@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blox Gubbie</title>
+  <style>
+    /* Cores e fontes */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #0d1117; /* Azul escuro bem escuro */
+      color: #ffffff;
+    }
+    header {
+      background-color: #0a0f1e; /* Azul escuro mais forte */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+    }
+    header img {
+      height: 50px;
+    }
+    header h1 {
+      font-size: 24px;
+      color: #00ffff; /* Azul neon */
+      margin: 0;
+    }
+    nav a {
+      color: #00ffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    }
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .section-title {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #00ffff;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .product-card {
+      background-color: #111;
+      border: 2px solid #00ffff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      transition: 0.3s;
+    }
+    .product-card:hover {
+      box-shadow: 0 0 20px #00ffff;
+      transform: translateY(-5px);
+    }
+    .product-card h3 {
+      margin: 10px 0;
+    }
+    button {
+      background-color: #00ffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #0d1117;
+      transition: 0.3s;
+    }
+    button:hover {
+      box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #0a0f1e;
+      padding: 20px;
+      text-align: center;
+      color: #00ffff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo Blox Gubbie">
+    <h1>Blox Gubbie</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2 class="section-title">Bem-vindo à Blox Gubbie!</h2>
+    <p>Aqui você compra com segurança itens de <b>Steal a Brainrot</b>, <b>Grow a Garden</b>, <b>Blue Lock Rivals</b> e <b>Blox Fruits</b>.</p>
+  </section>
+
+  <section id="produtos">
+    <h2 class="section-title">Produtos</h2>
+    <div class="products">
+      <div class="product-card">
+        <h3>Grow a Garden</h3>
+        <p>Itens selecionados para este jogo.</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product-card">
+        <h3>Roube um Brainrot</h3>
+        <p>Itens selecionados para este jogo.</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product-card">
+        <h3>Blox Fruits</h3>
+        <p>Itens selecionados para este jogo.</p>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2 class="section-title">Sobre</h2>
+    <p>A Blox Gubbie é uma loja online dedicada a fornecer itens de jogos com segurança e confiabilidade. Nossa missão é facilitar a vida dos gamers e oferecer produtos de qualidade.</p>
+  </section>
+
+  <section id="contato">
+    <h2 class="section-title">Contato</h2>
+    <p>Envie uma mensagem para: <b>contato@bloxgubbie.com</b></p>
+    <p>Caso alguma dúvida fale com: <b>+55 11 95687-1659</b></p>
+    <a href="https://wa.me/5511956871659" target="_blank">
+      <button>WhatsApp</button>
+    </a>
+  </section>
+
+  <footer>
+    © 2025 Blox Gubbie | Feito com ❤️ e estilo futurista
+  </footer>
+
+</body>
+</html>
